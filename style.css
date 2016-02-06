@@ -1,0 +1,134 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:border, *:after {
+	box-sizing: inherit;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font: 13px/1.5 sans-serif;
+	display: block;
+}
+
+.clear {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #0645AD;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+
+#wrapper {
+	width: 70%;
+	margin: 30px auto;
+}
+
+#intro {
+	margin: auto;
+	width: 70%;
+	font-size: 150%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: justify;
+}
+
+div {
+	display: block;
+}
+
+.otherprojects {
+	width: 70%;
+	margin: auto;
+}
+
+#logo-container {
+	width: 95%;
+	margin: 100px auto 0 auto;
+	padding: 0;
+}
+.square-logo {
+	width: 135px;
+	height: 135px;
+}
+
+.logo-row {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	margin-bottom: 15px;
+}
+
+.logo-container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+#center-right {
+	text-align: right;
+}
+
+#wikipedia {
+	width: 135px;
+	height: 154px;
+}
+#wikisource {
+	width: 123px;
+	height: 154px;
+}
+#wikinews {
+	width: 135px;
+	height: 104px;
+}
+#wikiversity {
+	width: 119px;
+	height: 135px;
+}
+#wikispecies {
+	width: 125px;
+	height: 160px;
+}
+#wikidata {
+	width: 150px;
+	height: 105px;
+}
+#wikicommons {
+	width: 135px;
+	height: 155px;
+}
+#wikilabs {
+	width: 122px;
+	height: 138px;
+}
+
+#footer {
+	width: 70%;
+	margin: auto;
+	clear: both;
+	text-align: center;
+	border-top: 0.5px solid gray;
+	padding: 10px;
+}
+
+#footer ul {
+	list-style-type: none;
+	display: inline;
+}
+
+#footer li {
+	display: inline;
+	margin: 10px;
+}
